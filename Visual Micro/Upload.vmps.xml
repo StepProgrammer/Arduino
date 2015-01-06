@@ -1,0 +1,33 @@
+<VisualMicro>
+  <Program Name="Arduino" Ext=".ino" Location="T:\Пользовательские Данные\Documents\Arduino\Arduino">
+    <Platform Name="arduino10x" Package="arduino" Platform="avr" Architecture="avr">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Program Files\Arduino\hardware\arduino\cores\arduino" VariantFullPath="C:\Program Files\Arduino\hardware\arduino\variants\standard" McuIdePath="C:\Program Files\Arduino" McuSketchBookPath="T:\Пользовательские Данные\Documents\Arduino" name="Arduino Uno" upload.protocol="arduino" upload.maximum_size="32256" upload.speed="115200" bootloader.low_fuses="0xff" bootloader.high_fuses="0xde" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="standard" runtime.ide.path="C:\Program Files\Arduino" build.system.path="C:\Program Files\Arduino\hardware\arduino\system" runtime.ide.version="106" originalid="uno" vm.platform.root.path="T:\Installed Programs\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="T:\Пользовательские Данные\Documents\Arduino" build.core.vmresolved="C:\Program Files\Arduino\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="C:\Program Files\Arduino\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="C:\Program Files\Arduino\hardware\arduino" vm.core.include="arduino.h" build.board="AVR_UNO" vm.boardsource.path="C:\Program Files\Arduino\hardware\arduino" runtime.platform.path="C:\Program Files\Arduino\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" build.variant.vmresolved="C:\Program Files\Arduino\hardware\arduino\variants\standard" vm.runtime.compiler.showwarnings="false" compiler.path="C:\Program Files\Arduino\hardware\tools\avr\bin\" includes=" -I&quot;C:\Program Files\Arduino\hardware\arduino\cores\arduino&quot;  -I&quot;C:\Program Files\Arduino\hardware\arduino\variants\standard&quot; " build.path="C:\Users\Owner\AppData\Local\VMicro\Arduino\Builds\Arduino\uno" build.project_name="Arduino" build.variant.path="C:\Program Files\Arduino\hardware\arduino\variants\standard" archive_file="core.a" object_file="C:\Users\Owner\AppData\Local\VMicro\Arduino\Builds\Arduino\uno\WString.cpp.o" source_file="C:\Program Files\Arduino\hardware\arduino\cores\arduino\WString.cpp" object_files="&quot;C:\Users\Owner\AppData\Local\VMicro\Arduino\Builds\Arduino\uno\Arduino.cpp.o&quot; " build.architecture="avr" vmresolved.compiler.path="C:\Program Files\Arduino\hardware\tools\avr\bin\" vmresolved.tools.path="C:\Program Files\Arduino\hardware\tools\avr" />
+    </Platform>
+    <Compile IsDebugStart="1" CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Owner\AppData\Local\VMicro\Arduino\Builds\Arduino\uno" SketchName="Arduino" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 50;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE_UART 5;VM_DEBUGGER_TYPE_USART 6;VM_DEBUGGER_TYPE_USBSERIAL 7;VM_DEBUGGER_TYPE_TTYUART 8;VM_DEBUGGER_TYPE_NET_CONSOLE 9;VM_DEBUGGER_TYPE_Uart 10;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;VM_DEBUG_BREAKPAUSE;" IncludesDebug="1" IsCompiled="1" />
+    <Debug EnableBreak="1" DebugEnabled="1" RemotePortSpeedWrittenToDebugSource="115200" />
+    <VCCodeModel>
+      <VCCodeMacros />
+    </VCCodeModel>
+    <BreakPoints>
+      <BreakPoint Index="1" Name="Arduino.ino, строка 8" Id="fe434e1b-01cd-4534-a641-45eb2ccf7ac4" Enabled="1" Message="millis is currently {millis()}" MessageTextType="0" PreProcessedMessage="millis is currently {0}" Condition="millis()&gt;0 || millis()&gt;1" ConditionType="1" CurrentHits="0" File="t:\пользовательские данные\documents\arduino\arduino\arduino.ino" FileLine="8" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="250" HitCountType="4" Language="C++" LocationType="3" Tag="&lt;vmbp Id='7793baff-809e-4a18-bdd0-f69e6d76a31f'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
+        <Source>1	void setup()
+2	{
+3	
+4	  /* add setup code here */
+5	
+6	}
+7	
+--&gt;8	void loop()
+9	{
+10	
+11	  /* add main program code here */
+12	
+13	}
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="millis()" Index="1" />
+        </MessageVariables>
+      </BreakPoint>
+    </BreakPoints>
+  </Program>
+</VisualMicro>
